@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300;400;700;800&family=Raleway:ital,wght@1,200&family=Roboto:ital,wght@0,300;1,300;1,400;1,500&display=swap');
+.skills-image {
+    width: 80x;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .animate-pulse {
+    animation: pulse 1s infinite;
+  }
+  .skill {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }
+
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
